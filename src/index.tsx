@@ -4,6 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import '@mantine/core/styles.css';
+
+//aditionale
+import '@mantine/dates/styles.css';
+import '@mantine/dropzone/styles.css';
+import '@mantine/code-highlight/styles.css';
+
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
